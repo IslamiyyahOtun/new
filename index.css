@@ -1,0 +1,91 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(farm.jpg);
+}
+
+
+nav{
+    height: 60px;
+    width: 100%;
+    background: bisque;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: solid;
+    color: blue;   
+}
+nav ul li:hover{
+    background: chocolate;
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+section h1{
+    color: coral;
+    font-size: 3rem;
+    font-style: italic;
+}
+section p{
+    color: coral;
+    text-decoration: darkcyan;
+}
+btn-1{
+    background-color: darkgrey;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+img{
+    width: 20%;
+    margin-left: 5%;
+}
+.section h1:{
+    color: lemonchiffon;
+    font-style: italic;
+    font-size: 3rem;
+}
+.section p:{
+    color: lightgrey;
+}
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#livestocks {
+    text-align: center;
+    justify-content:space-evenly;
+    display: ruby-text-container;
+}
+#livestock img{
+    width: 150px;
+    border-radius: 10px;
+    border: silver;
+}
+#apiculture{
+    text-align: center;
+    justify-content:space-evenly;
+    display: ruby-text-container;
+}
+#apiculture img{
+    width: 150px;
+    border-radius: 10px;
+    border: silver;
+}
+.book{
+    border-radius: 10px;
+    background-color: slateblue;
+    color:tomato;
+    border: none;
+}
+footer p{
+    text-decoration-color: turquoise;
+    text-align: center;
+}
